@@ -53,7 +53,7 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 ## Resources
 ### Official Challenge Links
 - [30 Days DevOps Challenge GitHub Repository](https://github.com/ShaeInTheCloud/30days-weather-dashboard)
-- [Challenge Discord Community](https://discord.gg/your-invite-link)
+- [Challenge Discord Community](https://discord.gg/GC4AAWpd)
 
 ### Additional Learning Resources
 - [Linux Basics](https://lnkd.in/e7S9HEMb)
