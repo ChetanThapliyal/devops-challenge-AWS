@@ -11,8 +11,8 @@ This repository is organized by days, with each day's project in its own folder:
 ```
 .
 ├── day1-weather-dashboard
-├── day2-ci-cd-pipeline
-├── day3-infrastructure-as-code
+├── day2-game-day-notifications
+├── day3-sports-data-lake
 ├── ...
 └── day30-final-project
 ```
@@ -34,15 +34,15 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 | Day  | Project Name                | Description                        |
 |------|-----------------------------|------------------------------------|
 | Day 1| Weather Dashboard          | Building a weather app on the cloud|
-| Day 2| CI/CD Pipeline Setup       | Setting up a simple CI/CD pipeline |
-| Day 3| Infrastructure Automation  | Deploying infrastructure with IaC  |
+| Day 2| Game day notification       |  |
+| Day 3| Sports Data Lake  |   |
 | ...  | ...                         | ...                                |
 | Day 30| Final Capstone Project    | Showcase of all learned concepts   |
 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/30-days-devops-challenge.git
+   git clone https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA.git
    ```
 2. Navigate to the specific day's project:
    ```bash
@@ -63,11 +63,6 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 - [Terraform](https://lnkd.in/e8fQsVCg)
 - [Docker](https://lnkd.in/e3UazpUT)
 - [CI/CD Concepts](https://lnkd.in/eQUdaeft)
-
-## Contact
-Feel free to reach out if you have any questions or feedback:
-- **GitHub**: [YourUsername](https://github.com/YourUsername)
-- **Email**: your.email@example.com
 
 ---
 
