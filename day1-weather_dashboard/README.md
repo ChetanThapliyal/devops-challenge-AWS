@@ -38,6 +38,40 @@ weather-dashboard/
 └── main.py              # Entry point of the application
 ```
 
+## Architecture Diagram
+```mermaid
+graph LR
+    subgraph User_Interaction
+        A[User] -.-> B{Enter City}
+    end
+    
+    subgraph Weather_Application
+        M[main.py] --> C
+        M[main.py] --> E
+        M[main.py] --> G
+        B{Enter City} --"City Name"--> C[weather_api.py]
+        C[weather_api.py] --"API Request"--> D[OpenWeather API]
+        D[OpenWeather API] --"Weather Data"--> C
+        C --"Formatted Data"-->  E[Weather Dashboard GUI]
+        E[Weather Dashboard GUI] --> F[Display Weather]
+    end
+
+    subgraph Data_Storage
+        C[weather_api.py] -- "Weather Data" --> G[s3_utils.py]
+        G[s3_utils.py] --"Store Data"--> H[AWS S3]
+    end
+
+    F[Display Weather] -.-> A[User]
+
+    classDef user fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef component fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef external fill:#f5f5f5,stroke:#616161,stroke-width:2px
+    
+    class A user
+    class B,C,E,G,M component
+    class D,H external
+```
+
 ## How to Run
 
 1. **Prerequisites:**
