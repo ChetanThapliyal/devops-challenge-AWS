@@ -98,6 +98,34 @@ graph LR
    python main.py
     ```
 
+## Issues and Troubleshooting
+
+This section outlines some common issues I have encountered while setting up or running the weather dashboard application and provides solutions or workarounds.
+
+**1. "IllegalLocationConstraintException" when Creating S3 Bucket:**
+
+   **Problem:** You might encounter the error "An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation" if you haven't specified a region for your S3 bucket or if the default region setting is incompatible. 
+
+   **Solution:**
+   - **Specify Region in `s3_utils.py`:** 
+     Ensure you've set the correct AWS region in the `S3Handler` class within `src/s3_utils.py`. Replace `"your-aws-region"` with your desired region (e.g., `"us-east-1"`, `"ap-south-1"`):
+
+     ```python
+     self.region_name = 'your-aws-region'
+     self.s3 = boto3.client('s3', region_name=self.region_name)
+     ```
+   - **Configure Default AWS Region:**  For convenience, set your desired region as the default in your AWS CLI or Python environment to avoid specifying it repeatedly.
+
+**2. "NoSuchBucket" Error when Saving Data:**
+
+   **Problem:** The error "An error occurred (NoSuchBucket) when calling the PutObject operation" usually means the S3 bucket you're attempting to save data to doesn't exist.
+
+   **Solution:**
+   - **Verify Bucket Name:** Double-check that the bucket name in your code (`self.bucket_name`) matches the name of the bucket you created in S3. Remember that bucket names are globally unique.
+   - **Confirm Bucket Creation:** Make sure the code to create the bucket (`create_bucket_if_not_exists`) runs successfully before attempting to save data.
+
+This "Issues and Troubleshooting" section provides a starting point for addressing common problems. If you encounter issues not listed here, refer to the AWS documentation, online forums, or contact the project maintainers for further assistance.
+
 ## Project Snippets
 
 ![weather_dashboard_mock_gui](/assets/d1-gui_weather_db.png)
