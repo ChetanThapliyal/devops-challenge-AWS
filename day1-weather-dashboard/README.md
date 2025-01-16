@@ -63,16 +63,16 @@ graph LR
 
     F[Display Weather] -.-> A[User]
 
-    %% Inline styling for GitHub compatibility
-    style A fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,font-size:14px
-    style B fill:#ffffff,stroke:#2e7d32,stroke-width:1px,font-size:14px
-    style C fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
-    style D fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
-    style E fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
-    style F fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
-    style G fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
-    style H fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
-    style M fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
+    %% Styling for better readability
+    style A fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,font-size:16px,color:#1b5e20
+    style B fill:#ffffff,stroke:#2e7d32,stroke-width:1px,font-size:16px,color:#000000
+    style C fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:16px,color:#000000
+    style D fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:16px,color:#000000
+    style E fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:16px,color:#000000
+    style F fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:16px,color:#000000
+    style G fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:16px,color:#000000
+    style H fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:16px,color:#000000
+    style M fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:16px,color:#000000
 ```
 
 ## How to Run
