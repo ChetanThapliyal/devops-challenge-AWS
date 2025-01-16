@@ -63,13 +63,16 @@ graph LR
 
     F[Display Weather] -.-> A[User]
 
-    classDef user fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    classDef component fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef external fill:#f5f5f5,stroke:#616161,stroke-width:2px
-    
-    class A user
-    class B,C,E,G,M component
-    class D,H external
+    %% Inline styling for GitHub compatibility
+    style A fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,font-size:14px
+    style B fill:#ffffff,stroke:#2e7d32,stroke-width:1px,font-size:14px
+    style C fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
+    style D fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
+    style E fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
+    style F fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
+    style G fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
+    style H fill:#f5f5f5,stroke:#616161,stroke-width:1px,font-size:14px
+    style M fill:#e1f5fe,stroke:#01579b,stroke-width:2px,font-size:14px
 ```
 
 ## How to Run
