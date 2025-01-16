@@ -20,6 +20,7 @@ Today's challenge involved building a Python application that fetches real-time 
 
 
 ## Project Structure
+```bash
 weather-dashboard/
 ├── src/                 # Source code for the application
 │   ├── __init__.py      # Makes src a package (can be empty)
@@ -35,6 +36,7 @@ weather-dashboard/
 ├── requirements.txt     # Project dependencies
 ├── README.md            # Project description and instructions
 └── main.py              # Entry point of the application
+```
 
 ## How to Run
 
