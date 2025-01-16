@@ -1,3 +1,32 @@
+# Python:
+*.pyc
+__pycache__/
+.venv/
+venv/
+ENV/
+
+# Environment variables (adjust file name if needed):
+.env
+
+# Operating system files:
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files:
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Streamlit (if applicable):
+.streamlit/
+
+# AWS Credentials (if you use a credentials file - not recommended):
+credentials
+
+# Log files (if any):
+*.log
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -35,3 +64,4 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
