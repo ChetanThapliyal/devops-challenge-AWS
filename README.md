@@ -1,4 +1,5 @@
 # 30 Days DevOps Challenge
+![devops-challenge-cozy-cloud-crew](/assets/NBA.png)
 
 Welcome to my journey through the **30 Days DevOps Challenge**! This repository documents all projects and learning activities as I progress through the challenge, building and improving my DevOps skills.
 
