@@ -97,3 +97,7 @@ graph LR
    ```bash
    python main.py
     ```
+
+## Project Snippets
+
+![weather_dashboard_mock_gui](/assets/gui_weather_db.png)
