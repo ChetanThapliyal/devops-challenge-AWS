@@ -100,6 +100,6 @@ graph LR
 
 ## Project Snippets
 
-![weather_dashboard_mock_gui](/assets/gui_weather_db.png)
+![weather_dashboard_mock_gui](/assets/d1-gui_weather_db.png)
 ![d1-weather-demonstration](/assets/d1-weather-demonstration.png)
 ![d1-weather-aws-s3](/assets/d1-weather-s3.png)
