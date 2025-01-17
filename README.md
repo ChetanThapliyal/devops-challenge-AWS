@@ -35,7 +35,7 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 | Day  | Project Name                | Description                        |
 |------|-----------------------------|------------------------------------|
 | Day 1| [Weather Dashboard](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day1-weather-dashboard)         | Building a weather app on the cloud|
-| Day 2| Game day notification       |  |
+| Day 2| [Game day notification](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day2-game-notifications)       | Provide timely updates on games through SMS and email notifications|
 | Day 3| Sports Data Lake  |   |
 | ...  | ...                         | ...                                |
 | Day 30| Final Capstone Project    | Showcase of all learned concepts   |
