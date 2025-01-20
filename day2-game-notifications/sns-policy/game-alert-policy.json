@@ -1,0 +1,12 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"sns:publish"
+			],
+			"Resource": "arn:aws:sns:ap-south-1:569513129555:game-notif"
+		}
+	]
+}
