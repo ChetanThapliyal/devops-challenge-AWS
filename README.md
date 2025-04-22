@@ -1,10 +1,10 @@
-# 30 Days DevOps Challenge
+# AWS DevOps Challenge
 ![devops-challenge-cozy-cloud-crew](/assets/NBA.png)
 
-Welcome to my journey through the **30 Days DevOps Challenge**! This repository documents all projects and learning activities as I progress through the challenge, building and improving my DevOps skills.
+Welcome to my journey through the **AWS DevOps Challenge**! This repository documents all projects and learning activities as I progress through the challenge, building and improving my DevOps skills.
 
 ## Overview
-The **30 Days DevOps Challenge** is a structured learning path designed to help participants master core DevOps concepts, tools, and practices. The projects span a variety of DevOps domains, including CI/CD pipelines, infrastructure automation, containerization, and monitoring.
+The **AWS DevOps Challenge** is a structured learning path designed to help participants master core DevOps concepts, tools, and practices. The projects span a variety of DevOps domains, including CI/CD pipelines, infrastructure automation, containerization, and monitoring.
 
 ## Repository Structure
 This repository is organized by days, with each day's project in its own folder:
@@ -32,13 +32,13 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 - **Monitoring**: Prometheus, Grafana
 
 ## Progress
-| Day  | Project Name                | Description                        |
+| No.  | Project Name                | Description                        |
 |------|-----------------------------|------------------------------------|
-| Day 1| [Weather Dashboard](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day1-weather-dashboard)         | Building a weather app on the cloud|
-| Day 2| [Game day notification](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day2-game-notifications)       | Provide timely updates on games through SMS and email notifications|
-| Day 3| Sports Data Lake  |   |
+| 01 | [Weather Dashboard](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day1-weather-dashboard)         | Building a weather app on the cloud|
+| 02 | [Game day notification](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day2-game-notifications)       | Provide timely updates on games through SMS and email notifications|
+| 03 | Sports Data Lake  |   |
 | ...  | ...                         | ...                                |
-| Day 30| Final Capstone Project    | Showcase of all learned concepts   |
+| X | Final Capstone Project    | Showcase of all learned concepts   |
 
 ## How to Use
 1. Clone the repository:
