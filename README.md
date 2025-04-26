@@ -11,11 +11,11 @@ This repository is organized by days, with each day's project in its own folder:
 
 ```
 .
-├── day1-weather-dashboard
-├── day2-game-day-notifications
-├── day3-sports-data-lake
+├── 1-weather-dashboard
+├── 2-game-day-notifications
+├── 3-sports-data-lake
 ├── ...
-└── day30-final-project
+└── 30-final-project
 ```
 
 Each directory contains:
@@ -34,16 +34,16 @@ Throughout this challenge, I will be using a range of tools and technologies, in
 ## Progress
 | No.  | Project Name                | Description                        |
 |------|-----------------------------|------------------------------------|
-| 01 | [Weather Dashboard](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day1-weather-dashboard)         | Building a weather app on the cloud|
-| 02 | [Game day notification](https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA/tree/main/day2-game-notifications)       | Provide timely updates on games through SMS and email notifications|
-| 03 | Sports Data Lake  |   |
+| 01 | [Weather Dashboard](https://github.com/ChetanThapliyal/devops-challenge-AWS/tree/main/1-weather-dashboard)         | Building a weather app on the cloud|
+| 02 | [Game day notification](https://github.com/ChetanThapliyal/devops-challenge-AWS/tree/main/2-game-notifications)       | Provide timely updates on games through SMS and email notifications|
+| 03 | [Sports Data Lake](https://github.com/ChetanThapliyal/devops-challenge-AWS/tree/main/3-data-lake-for-NBA-analytics)  |   |
 | ...  | ...                         | ...                                |
 | X | Final Capstone Project    | Showcase of all learned concepts   |
 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ChetanThapliyal/30-days-devops-challenge-AWS-NBA.git
+   git clone https://github.com/ChetanThapliyal/devops-challenge-AWS.git
    ```
 2. Navigate to the specific day's project:
    ```bash
