@@ -1,4 +1,4 @@
-# Day 1: Weather Dashboard
+# 1: Weather Dashboard
 
 ## Overview
 
